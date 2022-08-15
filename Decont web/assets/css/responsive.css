@@ -1,0 +1,531 @@
+@media screen and (max-width: 1244px) {
+    .box-container {
+        padding: 0px 30px;
+    }
+
+    .feature-grid .wraaper {
+        padding: 45px 20px;
+    }
+}
+
+
+@media screen and (max-width: 1090px) {
+    .grid-col-2 {
+        grid-template-columns: 1fr;
+        margin-bottom: 70px;
+    }
+
+    .discover-text {
+        /* padding: 50px; */
+        width: 83%;
+        margin: 0;
+    }
+
+    .l-tx {
+        display: flex;
+        flex-direction: column-reverse;
+        align-items: flex-start;
+    }
+
+    .discover-img img {
+        width: 70%;
+    }
+
+    .discover-text p {
+        margin: 20px 0px;
+    }
+
+    .discover-text h2 {
+        font-size: 24px;
+        margin-top: 30px;
+    }
+
+    .left-text {
+        margin-bottom: 50px;
+    }
+
+    .our-value img {
+        max-width: 70%;
+    }
+
+    .footer-wrapper {
+        flex-wrap: wrap;
+    }
+
+    .our-value {
+        margin: 66px 0px;
+    }
+
+    .quality-product .banner-title h1 {
+        font-size: 38px;
+    }
+
+    .banner-overlay {
+        position: relative;
+        background: rgb(28 28 28 / 38%);
+        padding: 173px 0 209px;
+    }
+
+    .footer-box {
+        width: 30%;
+    }
+
+}
+
+
+@media screen and (max-width: 990px) {
+
+    .properties-detail h3 {
+        font-size: 36px;
+        font-weight: 600;
+        margin-bottom: 20px;
+        margin-top: 0px;
+        margin-bottom: 20px;
+    }
+
+    .fill-btn {
+        margin-bottom: 60px;
+    }
+
+    .Benefits .benefits-wrap .items {
+        width: 30%;
+    }
+
+    .Benefits .benefits-wrap {
+        display: flex;
+        justify-content: start;
+    }
+}
+
+
+
+
+
+
+@media screen and (max-width: 864px) {
+
+    /* MOBILE NAVIGATION */
+    .btn-mobile-nav {
+        display: block;
+        z-index: 9999;
+    }
+
+    .btn-mobile-nav html {
+        overflow: hidden;
+    }
+
+    .main-nav {
+        background-color: rgba(255, 255, 255, 0.9);
+        -webkit-backdrop-filter: blur(5px);
+        backdrop-filter: blur(10px);
+        position: fixed;
+        top: 0;
+        left: 0;
+        width: 100%;
+        height: 100vh;
+        transform: translateX(100%);
+        text-align: start;
+        display: flex;
+        /* align-items: center; */
+        justify-content: start;
+        transition: all 0.5s ease-in;
+
+        /* Hide navigation */
+        /* Allows NO transitions at all */
+        /* display: none; */
+
+        /* 1) Hide it visually */
+        opacity: 0;
+
+        /* 2) Make it unaccessible to mouse and keyboard */
+        pointer-events: none;
+
+        /* 3) Hide it from screen readers */
+        visibility: hidden;
+    }
+
+    .nav-open .main-nav {
+        opacity: 1;
+        pointer-events: auto;
+        visibility: visible;
+        transform: translateX(0);
+        overflow: hidden;
+    }
+
+    .nav-open .icon-mobile-nav[name="close-outline"] {
+        display: block;
+    }
+
+    .nav-open .icon-mobile-nav[name="menu-outline"] {
+        display: none;
+    }
+
+    .main-nav-list {
+        flex-direction: column;
+        margin-top: 26%;
+    }
+
+    .sticky .header {
+        padding: 0px;
+    }
+
+    .innovations-section .top-headings h2 {
+        font-size: 26px;
+        line-height: 1.5;
+    }
+
+    .our-value h4 {
+        font-size: 24px;
+    }
+
+    .feature-boxes h3 {
+        font-size: 22px;
+        margin-top: 30px;
+    }
+
+    .footer-logo {
+        width: 100%;
+    }
+
+    .footer-wrapper {
+        row-gap: 40px;
+    }
+
+    .feature-grid .wraaper {
+        grid-template-columns: 1fr;
+        gap: 25px;
+        padding: 40px 40px;
+    }
+
+    .product-grid {
+
+        display: flex;
+        flex-direction: column-reverse;
+        gap: 40px;
+    }
+
+    .p-discription {
+        padding: 0px 0px;
+    }
+
+    .p-discription .p-heading {
+        font-size: 24px;
+        margin-bottom: 15px;
+    }
+
+    .p-img img {
+        max-width: 90%;
+        margin-top: 20px;
+    }
+
+    .contact-us h4 {
+        font-size: 18px;
+    }
+
+    .contact-btn {
+        font-size: 11px;
+
+    }
+
+    .view-products {
+        margin-bottom: 50px;
+    }
+
+    .recommended-wrap .recomend-item {
+        font-weight: 500;
+        font-size: 14px;
+        color: rgb(214 213 213);
+        width: 40%;
+    }
+
+    .Benefits .benefits-wrap .items {
+        width: 45%;
+    }
+
+}
+
+
+
+@media screen and (max-width: 599px) {
+    .page-indicator p {
+        margin-bottom: 5px;
+        font-size: 13px;
+    }
+
+    .top-products-listing {
+        margin-top: 50px;
+    }
+
+    .logo {
+        max-width: 126px;
+    }
+
+    .page-top .box-container {
+        padding: 0px 1px;
+    }
+
+    .page-top .social-icons a {
+        font-size: 15px;
+        height: 27px;
+        width: 27px;
+    }
+
+    .page-top span {
+        font-size: 10px;
+    }
+
+    .footer-wrapper {
+        row-gap: 40px;
+    }
+
+    .footer-logo {
+        width: 100%;
+    }
+
+    .footer-box {
+        width: 50%;
+    }
+
+    .contact-box {
+        width: 100%;
+        display: flex;
+        justify-content: space-between;
+        gap: 20px;
+    }
+
+    .btn {
+        background: rgb(0 0 0 / 0%);
+        padding: 10px 31px;
+        border: 2px solid rgb(242 240 239);
+        color: rgb(255 255 255);
+        border-radius: 50px;
+        font-size: 11px;
+        transition: all .14s ease;
+        font-weight: 500;
+    }
+
+
+    .banner-overlay {
+        position: relative;
+        background: rgb(28 28 28 / 38%);
+        padding: 170px 0 179px;
+    }
+
+
+    .banner-title h1 {
+        font-weight: 600;
+        font-size: 28px;
+        margin-bottom: 20px;
+    }
+
+    .banner-title p {
+        font-size: 13px;
+        margin-bottom: 32px;
+    }
+
+    .top-headings p {
+        width: 84%;
+        margin: 0 auto;
+        font-size: 13px;
+    }
+
+    .top-headings .bottom-line {
+        width: 5%;
+        height: 3px;
+        border-radius: 5px;
+        margin: 20px auto;
+    }
+
+    .info-box .top img {
+        object-fit: fill;
+        max-width: 50%;
+    }
+
+    .our-value h4 {
+
+        padding-right: 0px;
+        margin: 25px 0px 32px 0px;
+    }
+
+    .info-box {
+        height: auto;
+    }
+
+    .info-box .top h4 {
+        font-size: 22px;
+    }
+
+    .info-box .discription {
+        font-size: 13px;
+        padding: 25px 35px;
+    }
+
+    .sliderDemo .bannerContainer {
+        height: 300px;
+    }
+
+    .featuredBlock-col {
+        background: rgb(255 255 255);
+        padding: 65px 30px;
+    }
+
+    .sticky .header {
+        height: 80px;
+    }
+
+    .product-info {
+        /* padding-left: 50px; */
+        padding-left: 0px;
+    }
+
+    .product-info h3 {
+        font-size: 30px;
+    }
+
+    .product-info p {
+        font-size: 13px;
+    }
+
+    .product-info ul li {
+        font-size: 12px;
+        font-weight: 500;
+    }
+
+    .product-info h3::before {
+        content: "";
+        height: 4px;
+        width: 17px;
+        background: rgb(228 0 28);
+        position: absolute;
+        top: 50%;
+        left: -7%;
+        border-radius: 2px;
+    }
+
+    .view-btn {
+        padding: 5px 12px;
+    }
+
+    .view-btn a {
+        font-size: 10px;
+    }
+
+    .recommended-wrap .recomend-item {
+        font-weight: 500;
+        font-size: 13px;
+        color: rgb(214 213 213);
+        width: 50%;
+    }
+
+    .Benefits .benefits-wrap .items {
+        width: 100%;
+        display: flex;
+        align-items: center;
+        flex-direction: column;
+        text-align: center;
+    }
+
+    .properties-detail td {
+        border-bottom: 0px;
+        width: 50%;
+        font-size: 12px;
+    }
+
+    .properties-detail th {
+        padding-left: 25px;
+        padding: 10px;
+        font-size: 13px;
+    }
+
+    .properties-detail .short-disc {
+        width: 80%;
+        margin: 30px 0px;
+        font-weight: 400;
+        font-size: 12px;
+    }
+
+    .properties-detail h3 {
+        font-size: 26px;
+    }
+
+    .fill-btn a {
+        font-size: 11px;
+    }
+
+    .properties-detail h4 {
+        font-size: 18px;
+    }
+
+    .comman-heading {
+        font-size: 20px;
+        margin: 25px 0px;
+    }
+
+    .Related-products {
+        padding: 5px 0px;
+    }
+
+    .Applications {
+        padding: 12px 0px;
+    }
+
+    .footer {
+        /* background: rgb(240 240 240); */
+        padding: 30px 0px;
+        margin-top: 38px;
+    }
+
+    .progressBar {
+        margin-top: 50px;
+    }
+
+    .Discover-products {
+        margin: 20px 0px;
+    }
+
+    .featuredBlock-col .btn {
+        border: 1px solid rgb(0 0 0);
+        border-radius: 25px;
+        font-size: 12px;
+    }
+
+    .featuredBlock-col .body2 p {
+        margin: 33px 0px;
+        font-size: 12px;
+        line-height: 22px;
+        letter-spacing: 0;
+    }
+
+    .contact-us .box-container {
+        padding: 5px;
+    }
+
+    .contact-us h4 {
+        margin-bottom: 0px;
+        font-size: 16px;
+    }
+
+    .footer-box h6 {
+        font-size: 14px;
+        margin-bottom: 20px;
+    }
+
+    .quality-product .banner-title h1 {
+        font-size: 26px;
+    }
+    .card-title h5 {
+        font-family: DiodrumCyrillic-500;
+        font-weight: 500;
+        font-size: 15px;
+    }
+    .featuredBlock {
+        background-position: 0 -1% !important;
+        min-height: 543px;}
+}
+
+@media screen and (max-width: 479px) {
+    .info-box .discription {
+        font-size: 13px;
+        padding: 18px 28px;
+    }
+}
